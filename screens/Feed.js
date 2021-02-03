@@ -1,12 +1,9 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
+import NewsList from '../components/NewsList';
 
 const Feed = () => {
-  return (
-    <View>
-      <Text>Feed</Text>
-    </View>
-  );
+  return <NewsList />;
 };
 
 export default Feed;
