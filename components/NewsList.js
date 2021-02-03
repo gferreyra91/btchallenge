@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, FlatList} from 'react-native';
+import {StyleSheet, FlatList, Text} from 'react-native';
 import NewsItem from './NewsItem';
 
 const NewsList = ({news, onPress}) => {
@@ -9,6 +9,7 @@ const NewsList = ({news, onPress}) => {
       renderItem={({item, index}) => (
         <NewsItem news={item} onPress={() => onPress(item)} />
       )}
+      ListEmptyComponent={<Text>Empty list</Text>}
     />
   );
 };

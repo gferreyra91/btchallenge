@@ -11,26 +11,7 @@ export default function MainNavigator() {
   return (
     <Main.Navigator mode="modal">
       <Main.Screen name="Tabs" component={TabNavigator} />
-      <Main.Screen
-        name="ViewNews"
-        component={ViewNews}
-        options={({route}) => ({
-          title: route.params.news.title,
-          headerRight: () => {
-            /* if saveNews is defined the user can save the news,
-            otherwise, the news is already saved */
-            if (route.params.saveNews)
-              return (
-                <TouchableHighlight
-                  onPress={() => {
-                    route.params.saveNews();
-                  }}>
-                  <Text>Save</Text>
-                </TouchableHighlight>
-              );
-          },
-        })}
-      />
+      <Main.Screen name="ViewNews" component={ViewNews} />
     </Main.Navigator>
   );
 }

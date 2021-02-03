@@ -25,6 +25,7 @@ const Saved = ({navigation}) => {
       onPress={(news) =>
         navigation.navigate('ViewNews', {
           news,
+          isSavedNews: true,
         })
       }
     />
