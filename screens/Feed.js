@@ -1,14 +1,17 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import NewsList from '../components/NewsList';
+import {saveNews} from '../db';
+import {MOCK_ARTICLES} from '../mocks';
 
 const Feed = ({navigation}) => {
   return (
     <NewsList
+      news={MOCK_ARTICLES}
       onPress={(news) =>
         navigation.navigate('ViewNews', {
           news,
-          saveNews: () => console.log('save news', news),
+          saveNews: () => saveNews(news),
         })
       }
     />
