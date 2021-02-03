@@ -8,7 +8,7 @@ const NewsList = ({onPress}) => {
     <FlatList
       data={MOCK_ARTICLES}
       renderItem={({item, index}) => (
-        <NewsItem news={item} onPress={() => onPress(item.url)} />
+        <NewsItem news={item} onPress={() => onPress(item)} />
       )}
     />
   );

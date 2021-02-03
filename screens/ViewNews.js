@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import WebView from 'react-native-webview';
 const ViewNews = ({route}) => {
-  const newsUrl = route.params.url;
+  const newsUrl = route.params.news.url;
   return (
     <View style={styles.container}>
       <WebView source={{uri: newsUrl}} />
