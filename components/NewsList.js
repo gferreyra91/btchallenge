@@ -1,12 +1,11 @@
 import React from 'react';
-import {StyleSheet, Text, View, FlatList} from 'react-native';
-import {MOCK_ARTICLES} from '../mocks';
+import {StyleSheet, FlatList} from 'react-native';
 import NewsItem from './NewsItem';
 
-const NewsList = ({onPress}) => {
+const NewsList = ({news, onPress}) => {
   return (
     <FlatList
-      data={MOCK_ARTICLES}
+      data={news}
       renderItem={({item, index}) => (
         <NewsItem news={item} onPress={() => onPress(item)} />
       )}
