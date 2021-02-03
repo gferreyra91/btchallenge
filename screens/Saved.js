@@ -1,31 +1,30 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text} from 'react-native';
 import NewsList from '../components/NewsList';
-import {getNews} from '../db';
+import {getNews, saveNews} from '../db';
 
 const Saved = ({navigation}) => {
-  const [news, setNews] = useState([]);
+  const [newsList, setNewsList] = useState([]);
 
   /* on mount fetch news saved on async storage */
   useEffect(() => {
     async function onMount() {
-      const newsList = await getNews();
-      setNews(newsList);
+      const newsListFromDb = await getNews();
+      setNewsList(newsListFromDb);
     }
     onMount();
-  }, [news]);
+  }, [newsList]);
 
-  if (news.length === 0) {
+  if (newsList.length === 0) {
     return <Text>No saved news</Text>;
   }
 
   return (
     <NewsList
-      news={news}
+      news={newsList}
       onPress={(news) =>
         navigation.navigate('ViewNews', {
           news,
-          saveNews: () => saveNews(news),
         })
       }
     />

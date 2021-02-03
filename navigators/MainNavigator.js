@@ -16,14 +16,19 @@ export default function MainNavigator() {
         component={ViewNews}
         options={({route}) => ({
           title: route.params.news.title,
-          headerRight: () => (
-            <TouchableHighlight
-              onPress={() => {
-                route.params.saveNews();
-              }}>
-              <Text>Save</Text>
-            </TouchableHighlight>
-          ),
+          headerRight: () => {
+            /* if saveNews is defined the user can save the news,
+            otherwise, the news is already saved */
+            if (route.params.saveNews)
+              return (
+                <TouchableHighlight
+                  onPress={() => {
+                    route.params.saveNews();
+                  }}>
+                  <Text>Save</Text>
+                </TouchableHighlight>
+              );
+          },
         })}
       />
     </Main.Navigator>
