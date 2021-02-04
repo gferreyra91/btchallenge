@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text} from 'react-native';
 import NewsList from '../components/NewsList';
-import {getNews, saveNews} from '../db';
+import {getNews} from '../db';
 
 const Saved = ({navigation}) => {
   const [newsList, setNewsList] = useState([]);
 
-  /* on mount fetch news saved on async storage */
+  /* on mount fetches news saved on async storage */
   useEffect(() => {
     async function onMount() {
       const newsListFromDb = await getNews();

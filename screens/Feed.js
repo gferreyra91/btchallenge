@@ -5,6 +5,7 @@ import NewsList from '../components/NewsList';
 import {CATEGORY} from '../const';
 import {saveNews} from '../db';
 import {capitalize} from 'lodash';
+
 const Feed = ({navigation}) => {
   /* default category selected is bussiness */
   const [selectedCategory, setSelectedCategory] = useState(CATEGORY.business);
@@ -17,7 +18,7 @@ const Feed = ({navigation}) => {
   /* every time that selectedCategory changes
   fetch the news list for the selected category */
   useEffect(() => {
-    async function fetchData() {
+    async function onMount() {
       /* The api errors can be handle in the getNewsList function too, 
       but here is faster */
       try {
@@ -29,7 +30,7 @@ const Feed = ({navigation}) => {
         Alert.alert(error.message);
       }
     }
-    fetchData();
+    onMount();
   }, [selectedCategory]);
 
   if (isLoading) {

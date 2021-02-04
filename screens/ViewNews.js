@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {StyleSheet, Text, TouchableHighlight, View} from 'react-native';
 import WebView from 'react-native-webview';
 import {saveNews} from '../db';
+
 const ViewNews = ({route, navigation}) => {
   const news = route.params.news;
 

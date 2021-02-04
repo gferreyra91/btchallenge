@@ -1,5 +1,4 @@
 import React from 'react';
-import {Text, TouchableHighlight} from 'react-native';
 
 import {createStackNavigator} from '@react-navigation/stack';
 import ViewNews from '../screens/ViewNews';
