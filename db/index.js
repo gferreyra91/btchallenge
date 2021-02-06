@@ -19,4 +19,14 @@ const saveNews = async (news) => {
   await AsyncStorage.setItem('news', newsString);
 };
 
-export {getNews, saveNews};
+const removeNews = async (newsId) => {
+  const newsArray = await getNews();
+  /* remove the index in array */
+  newsArray.splice(newsId, 1);
+  /* newsString is a string representation, because asyncStorage only use strings */
+  const newsString = JSON.stringify(newsArray);
+  await AsyncStorage.setItem('news', newsString);
+  console.log('removeNews');
+};
+
+export {getNews, saveNews, removeNews};
