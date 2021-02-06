@@ -1,19 +1,28 @@
 import React from 'react';
 import {Image, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 
-const NewsItem = ({news, onPress}) => {
+const NewsItem = ({news, onPressNext, onPressRemove}) => {
   return (
-    <TouchableOpacity style={styles.itemContainer} onPress={() => onPress()}>
+    <View style={styles.itemContainer}>
       <View style={styles.imageContainer}>
         <Image source={{uri: news.urlToImage}} style={styles.image} />
       </View>
       <View style={styles.textContainer}>
         <Text>{news.title}</Text>
       </View>
-      <View style={styles.nextContainer}>
-        <Text>></Text>
-      </View>
-    </TouchableOpacity>
+      {onPressRemove && (
+        <TouchableOpacity onPress={() => onPressRemove()}>
+          <View style={styles.nextContainer}>
+            <Text>X</Text>
+          </View>
+        </TouchableOpacity>
+      )}
+      <TouchableOpacity onPress={() => onPressNext()}>
+        <View style={styles.nextContainer}>
+          <Text>></Text>
+        </View>
+      </TouchableOpacity>
+    </View>
   );
 };
 
@@ -28,11 +37,11 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
   },
   imageContainer: {
-    flex: 2,
+    flex: 1,
   },
   image: {
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
     resizeMode: 'contain',
   },
   textContainer: {

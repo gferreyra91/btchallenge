@@ -51,7 +51,7 @@ const Feed = ({navigation}) => {
       </Picker>
       <NewsList
         news={newsList}
-        onPress={(news) =>
+        onPressNext={(news) =>
           navigation.navigate('ViewNews', {
             news,
             isSavedNews: false,

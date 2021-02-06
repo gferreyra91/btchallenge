@@ -17,8 +17,8 @@ const ViewNews = ({route, navigation}) => {
         if (!isSavedNews) {
           return (
             <TouchableHighlight
-              onPress={() => {
-                saveNews(news);
+              onPress={async () => {
+                await saveNews(news);
                 navigation.navigate('Saved');
               }}>
               <Text>Save</Text>

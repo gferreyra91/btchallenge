@@ -1,19 +1,24 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text} from 'react-native';
 import NewsList from '../components/NewsList';
-import {getNews} from '../db';
+import {getNews, removeNews} from '../db';
 
 const Saved = ({navigation}) => {
   const [newsList, setNewsList] = useState([]);
 
+  const onMount = async () => {
+    const newsListFromDb = await getNews();
+    setNewsList(newsListFromDb);
+  };
+
   /* on mount fetches news saved on async storage */
   useEffect(() => {
-    async function onMount() {
-      const newsListFromDb = await getNews();
-      setNewsList(newsListFromDb);
-    }
-    onMount();
-  }, [newsList]);
+    const unsubscribe = navigation.addListener('focus', async () => {
+      await onMount();
+    });
+
+    return unsubscribe;
+  }, [navigation]);
 
   if (newsList.length === 0) {
     return <Text>No saved news</Text>;
@@ -22,12 +27,16 @@ const Saved = ({navigation}) => {
   return (
     <NewsList
       news={newsList}
-      onPress={(news) =>
+      onPressNext={(news) =>
         navigation.navigate('ViewNews', {
           news,
           isSavedNews: true,
         })
       }
+      onPressRemove={async (newsId) => {
+        await removeNews(newsId);
+        await onMount();
+      }}
     />
   );
 };
