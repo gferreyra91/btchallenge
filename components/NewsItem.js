@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 const NewsItem = ({news, onPressNext, onPressRemove}) => {
   return (
@@ -10,18 +11,20 @@ const NewsItem = ({news, onPressNext, onPressRemove}) => {
       <View style={styles.textContainer}>
         <Text>{news.title}</Text>
       </View>
-      {onPressRemove && (
-        <TouchableOpacity onPress={() => onPressRemove()}>
-          <View style={styles.nextContainer}>
-            <Text>X</Text>
+      <View style={styles.iconsContainer}>
+        {onPressRemove && (
+          <TouchableOpacity onPress={() => onPressRemove()}>
+            <View style={styles.iconContainer}>
+              <Icon name="times" />
+            </View>
+          </TouchableOpacity>
+        )}
+        <TouchableOpacity onPress={() => onPressNext()}>
+          <View style={styles.iconContainer}>
+            <Icon name="chevron-right" />
           </View>
         </TouchableOpacity>
-      )}
-      <TouchableOpacity onPress={() => onPressNext()}>
-        <View style={styles.nextContainer}>
-          <Text>></Text>
-        </View>
-      </TouchableOpacity>
+      </View>
     </View>
   );
 };
@@ -45,12 +48,18 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
   },
   textContainer: {
-    flex: 4,
+    flex: 3,
     justifyContent: 'center',
   },
-  nextContainer: {
+  iconsContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  iconContainer: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'flex-end',
+    alignItems: 'center',
   },
 });
