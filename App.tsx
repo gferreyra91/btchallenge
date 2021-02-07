@@ -13,12 +13,15 @@ import {StyleSheet, Text} from 'react-native';
 import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
 import MainNavigator from './navigators/MainNavigator';
+import {ThemeProvider} from 'react-native-elements';
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <MainNavigator />
-    </NavigationContainer>
+    <ThemeProvider>
+      <NavigationContainer>
+        <MainNavigator />
+      </NavigationContainer>
+    </ThemeProvider>
   );
 };
 

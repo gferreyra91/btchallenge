@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text} from 'react-native';
+import {Header} from 'react-native-elements';
 import NewsList from '../components/NewsList';
 import {getNews, removeNews} from '../db';
 
@@ -25,19 +26,22 @@ const Saved = ({navigation}) => {
   }
 
   return (
-    <NewsList
-      news={newsList}
-      onPressNext={(news) =>
-        navigation.navigate('ViewNews', {
-          news,
-          isSavedNews: true,
-        })
-      }
-      onPressRemove={async (newsId) => {
-        await removeNews(newsId);
-        await onMount();
-      }}
-    />
+    <>
+      <Header centerComponent={{text: 'Saved', style: {color: '#fff'}}} />
+      <NewsList
+        news={newsList}
+        onPressNext={(news) =>
+          navigation.navigate('ViewNews', {
+            news,
+            isSavedNews: true,
+          })
+        }
+        onPressRemove={async (newsId) => {
+          await removeNews(newsId);
+          await onMount();
+        }}
+      />
+    </>
   );
 };
 

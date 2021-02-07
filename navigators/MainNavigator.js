@@ -8,7 +8,11 @@ const Main = createStackNavigator();
 
 export default function MainNavigator() {
   return (
-    <Main.Navigator mode="modal">
+    <Main.Navigator
+      mode="modal"
+      screenOptions={{
+        headerShown: false,
+      }}>
       <Main.Screen name="News" component={TabNavigator} />
       <Main.Screen name="ViewNews" component={ViewNews} />
     </Main.Navigator>

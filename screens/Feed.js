@@ -3,8 +3,8 @@ import {Alert, Picker, StyleSheet, Text} from 'react-native';
 import {getNewsList} from '../api';
 import NewsList from '../components/NewsList';
 import {CATEGORY} from '../const';
-import {saveNews} from '../db';
 import {capitalize} from 'lodash';
+import { Header } from 'react-native-elements';
 
 const Feed = ({navigation}) => {
   /* default category selected is bussiness */
@@ -39,6 +39,7 @@ const Feed = ({navigation}) => {
 
   return (
     <>
+      <Header centerComponent={{text: 'Feed', style: {color: '#fff'}}} />
       <Picker
         selectedValue={selectedCategory}
         onValueChange={(itemValue, itemIndex) =>

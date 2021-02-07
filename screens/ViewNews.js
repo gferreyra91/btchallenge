@@ -1,5 +1,6 @@
-import React, {useEffect} from 'react';
-import {StyleSheet, Text, TouchableHighlight, View} from 'react-native';
+import React from 'react';
+import {StyleSheet, View} from 'react-native';
+import {Header} from 'react-native-elements';
 import WebView from 'react-native-webview';
 import {saveNews} from '../db';
 
@@ -9,28 +10,27 @@ const ViewNews = ({route, navigation}) => {
   /* determinate if shows save button or not */
   const isSavedNews = route.params.isSavedNews;
 
-  useEffect(() => {
-    /* config the header component of react navigation */
-    navigation.setOptions({
-      title: news.title,
-      headerRight: () => {
-        if (!isSavedNews) {
-          return (
-            <TouchableHighlight
-              onPress={async () => {
-                await saveNews(news);
-                navigation.navigate('Saved');
-              }}>
-              <Text>Save</Text>
-            </TouchableHighlight>
-          );
-        }
-      },
-    });
-  }, []);
-
   return (
     <View style={styles.container}>
+      <Header
+        leftComponent={{
+          icon: 'arrow-left',
+          color: '#fff',
+          onPress: () => navigation.goBack(),
+        }}
+        centerComponent={{text: news.title, style: {color: '#fff'}}}
+        rightComponent={
+          !isSavedNews && {
+            icon: 'save',
+            color: '#fff',
+            onPress: async () => {
+              await saveNews(news);
+              navigation.navigate('Saved');
+            },
+          }
+        }
+      />
+
       <WebView source={{uri: news.url}} />
     </View>
   );

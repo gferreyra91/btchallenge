@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, FlatList, Text} from 'react-native';
+import NewsCard from './NewsCard';
 import NewsItem from './NewsItem';
 
 const NewsList = ({news, onPressNext, onPressRemove}) => {
@@ -7,7 +8,7 @@ const NewsList = ({news, onPressNext, onPressRemove}) => {
     <FlatList
       data={news}
       renderItem={({item, index}) => (
-        <NewsItem
+        <NewsCard
           news={item}
           onPressNext={() => onPressNext(item)}
           onPressRemove={onPressRemove ? () => onPressRemove(index) : null}
