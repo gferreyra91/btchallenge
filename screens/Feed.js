@@ -4,7 +4,7 @@ import {getNewsList} from '../api';
 import NewsList from '../components/NewsList';
 import {CATEGORY} from '../const';
 import {capitalize} from 'lodash';
-import { Header } from 'react-native-elements';
+import {Header} from 'react-native-elements';
 
 const Feed = ({navigation}) => {
   /* default category selected is bussiness */
@@ -24,8 +24,8 @@ const Feed = ({navigation}) => {
       try {
         setIsLoading(true);
         const newsListResult = await getNewsList(selectedCategory);
-        setIsLoading(false);
         setNewsList(newsListResult);
+        setIsLoading(false);
       } catch (error) {
         Alert.alert(error.message);
       }

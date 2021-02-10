@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import {Card, ListItem, Button, Icon} from 'react-native-elements';
+import {StyleSheet} from 'react-native';
+import {Card, Button} from 'react-native-elements';
 
 const NewsCard = ({news, onPressNext, onPressRemove}) => {
   return (

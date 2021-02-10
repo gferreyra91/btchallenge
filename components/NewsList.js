@@ -1,7 +1,6 @@
 import React from 'react';
 import {StyleSheet, FlatList, Text} from 'react-native';
 import NewsCard from './NewsCard';
-import NewsItem from './NewsItem';
 
 const NewsList = ({news, onPressNext, onPressRemove}) => {
   return (
