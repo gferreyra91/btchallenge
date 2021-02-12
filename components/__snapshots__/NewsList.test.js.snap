@@ -1,0 +1,2944 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView
+  ListEmptyComponent={
+    <Text>
+      Empty list
+    </Text>
+  }
+  data={
+    Array [
+      Object {
+        "author": "LISA MASCARO, JOSH BOAK and JONATHAN LEMIRE",
+        "content": null,
+        "description": "President Joe Biden told Senate Democrats on a private call Tuesday that a Republican alternative to his $1.9 trillion COVID rescue plan is insufficient.",
+        "publishedAt": "2021-02-02T22:22:00Z",
+        "source": Object {
+          "id": null,
+          "name": "Chicago Tribune",
+        },
+        "title": "Third stimulus check updates: Biden, Yellen pan GOP virus aid as too small - Chicago Tribune",
+        "url": "https://www.chicagotribune.com/coronavirus/ct-nw-third-coronavirus-stimulus-check-updates-20210202-hyvfo55cfffzze4et2dndhudla-story.html",
+        "urlToImage": "https://www.chicagotribune.com/resizer/UCoTDELQpB6AOxfuw4TLxFyP--c=/1200x0/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/4HD5RMFG6OGSRWJEZ73XNN22ME.jpg",
+      },
+      Object {
+        "author": "Jacqueline Feldscher",
+        "content": "At Tuesday's briefing, Psaki was asked if Biden had made any decisions on the future of the Space Force, which was established by Congress in December 2019 with support from the Trump administration.… [+2753 chars]",
+        "description": "“It’s concerning to see the Biden administration’s press secretary blatantly diminish an entire branch of our military as the punchline of a joke, which I’m sure China would find funny,” said Rep. Mike Rogers.",
+        "publishedAt": "2021-02-02T22:08:00Z",
+        "source": Object {
+          "id": "politico",
+          "name": "Politico",
+        },
+        "title": "Top House Republican demands Psaki apologize over 'disgraceful' Space Force quip - POLITICO",
+        "url": "https://www.politico.com/news/2021/02/02/house-republican-psaki-space-force-465175",
+        "urlToImage": "https://static.politico.com/0d/ff/f6d14f9b44959fc906697c7e1516/gettyimages-1273003456-1.jpg",
+      },
+      Object {
+        "author": "",
+        "content": "A view inside the Rotunda which will hold Capitol Police officer Brian Sicknick's remains while he lays in honor after he died during the January 6, 2021 attack on the Capitol Building by a pro-Trump… [+2918 chars]",
+        "description": "An arrival ceremony for Sicknick will take place once a motorcade carrying his remains along with members of his family reaches the Capitol. On Wednesday members of Congress will pay tribute to him.",
+        "publishedAt": "2021-02-02T21:34:00Z",
+        "source": Object {
+          "id": null,
+          "name": "NPR",
+        },
+        "title": "Brian Sicknick, Capitol Police Officer Slain By Mob, Will Lie In Honor In Rotunda - NPR",
+        "url": "https://www.npr.org/2021/02/02/963336791/brian-sicknick-capitol-police-officer-slain-in-riot-will-lie-in-honor-in-rotunda",
+        "urlToImage": "https://media.npr.org/assets/img/2021/02/02/officer-sicknick_wide-88b0f61e43753b59fcc88bbaf36c4ae31b740197.jpg?s=1400",
+      },
+      Object {
+        "author": "https://www.facebook.com/bbcnews",
+        "content": "media captionAlexei Navalny says the latest case against him was fabricated
+A Moscow court has jailed Putin critic Alexei Navalny for three-and-a-half years for violating the conditions of a suspend… [+4541 chars]",
+        "description": "Alexei Navalny had returned to Russia after treatment in Germany for Novichok poisoning.",
+        "publishedAt": "2021-02-02T21:18:00Z",
+        "source": Object {
+          "id": null,
+          "name": "BBC News",
+        },
+        "title": "Putin critic Navalny jailed in Russia despite protests - BBC News",
+        "url": "https://www.bbc.com/news/world-europe-55910974",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/91C6/production/_116781373_mediaitem116781368.jpg",
+      },
+      Object {
+        "author": "Drew Harwell",
+        "content": "In interviews Tuesday with novice traders on r/wallstreetbets, the gleefully reckless Reddit forum that helped fuel the onslaught, several said they were holding out hope that the hyperinflated stock… [+8851 chars]",
+        "description": "The Reddit forum that helped kick off the frenzy has given way to anxiety, financial bloodshed and infighting: This is not a “Disney ferry ‘One-Wish-comes-true’ show,” one poster said. “This is the place where one wants to enjoy the sado-masochistic part of t…",
+        "publishedAt": "2021-02-02T21:11:00Z",
+        "source": Object {
+          "id": "the-washington-post",
+          "name": "The Washington Post",
+        },
+        "title": "As GameStop stock crumbles, newbie traders reckon with heavy losses - The Washington Post",
+        "url": "https://www.washingtonpost.com/technology/2021/02/02/gamestop-stock-plunge-losers/",
+        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IG224TTCQAI6XILXO5S7FGUVEQ.jpg&w=1440",
+      },
+      Object {
+        "author": "Todd Haselton",
+        "content": "Rep. Ken Buck, R-Colo., a member of the House Judiciary Committee, said on Twitter shortly after the announcement that he has questions for Jassy, hinting at an early hurdle when Jassy is installed.B… [+4496 chars]",
+        "description": "Jassy joined Amazon in 1997 and has led Amazon's Web Services cloud team since its inception.",
+        "publishedAt": "2021-02-02T21:05:00Z",
+        "source": Object {
+          "id": null,
+          "name": "CNBC",
+        },
+        "title": "Jeff Bezos to step down as Amazon CEO, Andy Jassy to take over in Q3 - CNBC",
+        "url": "https://www.cnbc.com/2021/02/02/jeff-bezos-to-step-down-as-amazon-ceo-andy-jassy-to-take-over-in-q3.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/105462231-1572004836498gettyimages-1036093714r.jpg?v=1612300919",
+      },
+      Object {
+        "author": "Ryan Hannable",
+        "content": "Danny Amendola made headlines Monday with his comments on FS1's \\"First Things First\\" relating to Bill Belichick and the Patriots.
+“When you see ‘Patriot Way’ in the dictionary, it’s gonna have Tom B… [+1601 chars]",
+        "description": "Former New England Patriots wide receiver Danny Amendola clarified his comments from Monday during an appearance with Colin Cowherd on Tuesday.",
+        "publishedAt": "2021-02-02T20:36:53Z",
+        "source": Object {
+          "id": null,
+          "name": "WWL News, Talk, Sports Radio Station",
+        },
+        "title": "Danny Amendola: Bill Belichick the GM wore me the wrong way - WEEI",
+        "url": "https://www.radio.com/weei/sports/patriots/danny-amendola-bill-belichick-the-gm-wore-me-the-wrong-way",
+        "urlToImage": "https://images.radio.com/aiu-media/Amendola-10a6a3c5-cb04-4ca0-baf3-b75670d37cea.jpg",
+      },
+      Object {
+        "author": "Amelia Lucas",
+        "content": "Chipotle Mexican Grill on Tuesday reported that its same-store sales rose more than 5% in its latest quarter, fueled by higher digital orders and the return of carne asada.
+Citing the uncertainty ca… [+2532 chars]",
+        "description": "So far in January, Chipotle Mexican Grill's same-store sales have climbed 11%.",
+        "publishedAt": "2021-02-02T20:32:00Z",
+        "source": Object {
+          "id": null,
+          "name": "CNBC",
+        },
+        "title": "Chipotle shares fall 4% as surging digital orders ease from record pace, earnings fall short - CNBC",
+        "url": "https://www.cnbc.com/2021/02/02/chipotle-mexican-grill-cmg-q4-2020-earnings.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/106754818-1603302503321-gettyimages-1227718842-CHIPOTLE_EARNS.jpeg?v=1612300529",
+      },
+      Object {
+        "author": "https://www.engadget.com/about/editors/igor-bonifacic",
+        "content": "Ahead of Sundays match between the Kansas City Chiefs and Tampa Bay Buccaneers, you can watch the ad Amazon will air during the Super Bowl. Titled Alexas Body, it features an Amazon employee and the … [+1200 chars]",
+        "description": "Amazon's latest ad stars no other than Michael B. Jordan.",
+        "publishedAt": "2021-02-02T20:26:04Z",
+        "source": Object {
+          "id": "engadget",
+          "name": "Engadget",
+        },
+        "title": "Michael B. Jordan is Alexa's voice (and body) in Amazon's Super Bowl ad - Engadget",
+        "url": "https://www.engadget.com/amazon-alexas-body-ad-super-bowl-195534864.html",
+        "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-02/450a5ac0-658e-11eb-9fe8-99fd0a418553",
+      },
+      Object {
+        "author": "Andrew Dunn",
+        "content": "Russia's coronavirus vaccine is highly effective, but it won't be available in the US or UK any time soon, a top Russian official told Insider.
+Applying for regulatory approval in the US and UK isn'… [+4210 chars]",
+        "description": "Going through the US regulatory process is \\"not frankly a priority for us,\\" a leader of Russia's vaccine program told Insider.",
+        "publishedAt": "2021-02-02T19:43:10Z",
+        "source": Object {
+          "id": "business-insider",
+          "name": "Business Insider",
+        },
+        "title": "US, UK approvals not a priority for Russia COVID-19 vaccine Sputnik V - Business Insider - Business Insider",
+        "url": "https://www.businessinsider.com/us-uk-approval-not-priority-russia-covid-19-vaccine-sputnik-v-2021-2",
+        "urlToImage": "https://i.insider.com/60197a02ee136f00183a9c53?width=1200&format=jpeg",
+      },
+      Object {
+        "author": "Elisha Fieldstadt",
+        "content": "Two Atlanta police officers who were fired after bodycam footage showed them pulling two Black college students from a car and using stun guns on them during last summer's protests have gotten their … [+3510 chars]",
+        "description": "Two Atlanta officers who were fired after bodycam footage showed them using stun guns on two Black college student during protests have gotten their jobs back.",
+        "publishedAt": "2021-02-02T19:43:00Z",
+        "source": Object {
+          "id": "nbc-news",
+          "name": "NBC News",
+        },
+        "title": "Two Atlanta officers fired for using Tasers on Black students have terminations overturned - NBC News",
+        "url": "https://www.nbcnews.com/news/us-news/two-atlanta-officers-fired-using-tasers-black-students-have-terminations-n1256458",
+        "urlToImage": "https://media3.s-nbcnews.com/j/newscms/2020_24/3384051/200608-atlanta-driver-messiah-young-tasered-body-cam-ac-1009p_d9ae75bf1e060396d71c935a2cfa26ab.nbcnews-fp-1200-630.jpg",
+      },
+      Object {
+        "author": "David Schoenfield",
+        "content": "While Nolan Arenado took questions about the storied tradition of the St. Louis Cardinals, playing rivalry games at Wrigley Field and life on a perennial playoff contender, Colorado Rockies owner Dic… [+3943 chars]",
+        "description": "Colorado Rockies owner Dick Monfort and GM Jeff Bridich said that they are not in a \\"total teardown and rebuild\\" after trading Nolan Arenado and that the team is \\"built to compete\\" in 2021.",
+        "publishedAt": "2021-02-02T19:36:15Z",
+        "source": Object {
+          "id": null,
+          "name": "ESPN",
+        },
+        "title": "Colorado Rockies owner frustrated by Nolan Arenado trade, but team 'built to compete' - ESPN",
+        "url": "https://www.espn.com/mlb/story/_/id/30822044/colorado-rockies-owner-frustrated-nolan-arenado-trade-team-built-compete",
+        "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0401%2Fr522827_1296x729_16%2D9.jpg",
+      },
+      Object {
+        "author": "Sharon LaFraniere, Noah Weiland, Rebecca Robbins",
+        "content": "The introduction of pharmacies will be the start of a new stage in the nations vaccination campaign. So far the drive has been centered in hospitals, other health care facilities and big sites like s… [+1998 chars]",
+        "description": "Moderna will ask federal regulators to increase the amount of coronavirus vaccine it can put in each vial by as much as 50 percent, potentially bolstering availability quickly.",
+        "publishedAt": "2021-02-02T19:18:00Z",
+        "source": Object {
+          "id": null,
+          "name": "New York Times",
+        },
+        "title": "Biden and Drug Makers Look to Speed Coronavirus Vaccine Deliveries - The New York Times",
+        "url": "https://www.nytimes.com/2021/02/02/us/politics/coronavirus-vaccine-supply-moderna.html",
+        "urlToImage": "https://static01.nyt.com/images/2021/02/02/us/politics/02dc-virus-moderna/02dc-virus-moderna-facebookJumbo.jpg",
+      },
+      Object {
+        "author": "Sara Nathan",
+        "content": "Rebel Wilson has split from her boyfriend Jacob Busch, Page Six has learned.
+The Aussie star who recently lost more than 60 pounds posted photos of the couple looking loved up after they met last ye… [+1236 chars]",
+        "description": "Rebel Wilson has split from her boyfriend Jacob Busch, Page Six has learned. The Aussie star — who recently lost more than 60 pounds — posted photos of the couple looking loved up after they met la…",
+        "publishedAt": "2021-02-02T19:14:00Z",
+        "source": Object {
+          "id": null,
+          "name": "Page Six",
+        },
+        "title": "Rebel Wilson and boyfriend Jacob Busch break up - Page Six",
+        "url": "https://pagesix.com/2021/02/02/rebel-wilson-and-boyfriend-jacob-busch-break-up/",
+        "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2021/02/rebel-wilson-jacob-busch.jpg?quality=90&strip=all&w=1200",
+      },
+      Object {
+        "author": null,
+        "content": "In an ideal world, a pandemic vaccine could be delivered in a single shot, so supplies could be stretched to cover a lot of people. It would trigger no side effect more significant than a sore arm. A… [+13067 chars]",
+        "description": "In some respects, it's easy to make direct comparisons between the three vaccines; in others, it's more complicated.",
+        "publishedAt": "2021-02-02T19:01:21Z",
+        "source": Object {
+          "id": null,
+          "name": "STAT",
+        },
+        "title": "Comparing three Covid-19 vaccines: Pfizer, Moderna, J&J - STAT",
+        "url": "https://www.statnews.com/2021/02/02/comparing-the-covid-19-vaccines-developed-by-pfizer-moderna-and-johnson-johnson/",
+        "urlToImage": "https://www.statnews.com/wp-content/uploads/2021/02/AP21029610403998-1024x576.jpg",
+      },
+      Object {
+        "author": "",
+        "content": "Over the years, video game fans chalked it up to a crack in the rumor mill and moved on.
+On Februrary 1st, 2021, YouTube channel The Serf Times published an interview with Adam Conover of Adam Ruins… [+1641 chars]",
+        "description": "Another lesson in the importance of zipping your lips.",
+        "publishedAt": "2021-02-02T18:54:44Z",
+        "source": Object {
+          "id": "engadget",
+          "name": "Engadget",
+        },
+        "title": "A Netflix employee accidentally killed Nintendo's live-action Zelda series - Engadget",
+        "url": "https://www.engadget.com/zelda-netflix-live-action-show-leak-rumor-184755257.html",
+        "urlToImage": "https://o.aolcdn.com/images/dims?resize=1200%2C630&crop=1200%2C630%2C0%2C0&quality=95&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2021-02%2F20f73620-6585-11eb-b3df-2e55d5cf933f&client=amp-blogside-v2&signature=50b0954de85dba5ac9d424012fa3a0033b6d40a5",
+      },
+      Object {
+        "author": "Doug Delony",
+        "content": "HOUSTON There's big news from CVS pharmacies on Tuesday as the chain prepares to offer COVID-19 vaccinations in-store at locations across the State of Texas, including the Houston area.
+Editor's not… [+3412 chars]",
+        "description": "CVS to offer vaccinations at pharmacies across Texas, including Houston, starting Feb. 11",
+        "publishedAt": "2021-02-02T18:51:54Z",
+        "source": Object {
+          "id": null,
+          "name": "KHOU.com",
+        },
+        "title": "CVS to offer COVID-19 vaccinations at pharmacies across Texas, including Houston, starting Feb. 11 - KHOU.com",
+        "url": "https://www.khou.com/article/news/health/coronavirus/cvs-vaccination-appointment-texas-houston/285-8cf71c2d-af7b-45e5-a15f-71f79958add9",
+        "urlToImage": "https://media.khou.com/assets/KHOU/images/d445e1ef-e8b5-40fa-9746-b398becce9d0/d445e1ef-e8b5-40fa-9746-b398becce9d0_1140x641.jpg",
+      },
+      Object {
+        "author": "Ashley Strickland, CNN",
+        "content": "(CNN)Space is a violent place, strewn with galaxies that have cannibalized each other to survive. Some of these survivors are galactic fossils, revealing glimpses of the past because they formed in t… [+4791 chars]",
+        "description": "Tucana II is a distant ultrafaint dwarf galaxy and is one of the most primitive galaxies of its kind. In addition to the metal-poor stars at its center, astronomers found even more primitive stars on the outskirts of the galaxy, suggesting it has an extended …",
+        "publishedAt": "2021-02-02T18:30:00Z",
+        "source": Object {
+          "id": "cnn",
+          "name": "CNN",
+        },
+        "title": "Dark matter halo found around ancient 'cannibal' galaxy - CNN",
+        "url": "https://www.cnn.com/2021/02/02/world/dark-matter-halo-ancient-galaxy-scn-trnd/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210202121119-dwarf-galaxy-halo-mit-super-tease.jpg",
+      },
+      Object {
+        "author": "Jonathan Easley",
+        "content": "Lawyers representing former President TrumpDonald TrumpGraham shoots down request for Merrick Garland confirmation hearing Feb. 8Trump lawyer to make First Amendment case at impeachment trialBiden fa… [+5959 chars]",
+        "description": "Lawyers representing former President Trump on Tuesday detailed the defense they’ll lay out at ne...",
+        "publishedAt": "2021-02-02T18:00:23Z",
+        "source": Object {
+          "id": "the-hill",
+          "name": "The Hill",
+        },
+        "title": "Trump lawyers call impeachment trial unconstitutional in laying out defense | TheHill - The Hill",
+        "url": "https://thehill.com/homenews/senate/536975-trump-lawyers-call-impeachment-trial-unconstitutional-in-laying-out-defense",
+        "urlToImage": "https://thehill.com/sites/default/files/trumpdonald_01202021_getty_0.jpg",
+      },
+      Object {
+        "author": "Marisa Fernandez",
+        "content": "More than 1 million doses of COVID-19 vaccine will be made available to about 6,500 pharmacies across the U.S. beginning Feb. 11, the White House said Tuesday. 
+Why it matters: Local, national and s… [+1492 chars]",
+        "description": "The federal government hopes this will expand access and speed up the vaccination process, though demand will outweigh supply.",
+        "publishedAt": "2021-02-02T17:59:00Z",
+        "source": Object {
+          "id": "axios",
+          "name": "Axios",
+        },
+        "title": "Biden administration will ship COVID vaccine directly to pharmacies - Axios",
+        "url": "https://www.axios.com/biden-covid-vaccine-pharmacies-b6801f94-99cb-4622-96fc-b6e4c3c2326e.html",
+        "urlToImage": "https://images.axios.com/DDjuJ24aLp_ohSm1HbyAfcjVqDc=/0x204:5523x3311/1366x768/2021/02/02/1612288345172.jpg",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            Third stimulus check updates: Biden, Yellen pan GOP virus aid as too small - Chicago Tribune
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://www.chicagotribune.com/resizer/UCoTDELQpB6AOxfuw4TLxFyP--c=/1200x0/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/4HD5RMFG6OGSRWJEZ73XNN22ME.jpg",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            Top House Republican demands Psaki apologize over 'disgraceful' Space Force quip - POLITICO
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://static.politico.com/0d/ff/f6d14f9b44959fc906697c7e1516/gettyimages-1273003456-1.jpg",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            Brian Sicknick, Capitol Police Officer Slain By Mob, Will Lie In Honor In Rotunda - NPR
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://media.npr.org/assets/img/2021/02/02/officer-sicknick_wide-88b0f61e43753b59fcc88bbaf36c4ae31b740197.jpg?s=1400",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            Putin critic Navalny jailed in Russia despite protests - BBC News
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://ichef.bbci.co.uk/news/1024/branded_news/91C6/production/_116781373_mediaitem116781368.jpg",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            As GameStop stock crumbles, newbie traders reckon with heavy losses - The Washington Post
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IG224TTCQAI6XILXO5S7FGUVEQ.jpg&w=1440",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            Jeff Bezos to step down as Amazon CEO, Andy Jassy to take over in Q3 - CNBC
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://image.cnbcfm.com/api/v1/image/105462231-1572004836498gettyimages-1036093714r.jpg?v=1612300919",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            Danny Amendola: Bill Belichick the GM wore me the wrong way - WEEI
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://images.radio.com/aiu-media/Amendola-10a6a3c5-cb04-4ca0-baf3-b75670d37cea.jpg",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            Chipotle shares fall 4% as surging digital orders ease from record pace, earnings fall short - CNBC
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://image.cnbcfm.com/api/v1/image/106754818-1603302503321-gettyimages-1227718842-CHIPOTLE_EARNS.jpeg?v=1612300529",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            Michael B. Jordan is Alexa's voice (and body) in Amazon's Super Bowl ad - Engadget
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://s.yimg.com/os/creatr-uploaded-images/2021-02/450a5ac0-658e-11eb-9fe8-99fd0a418553",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#e1e8ee",
+            "borderWidth": 1,
+            "margin": 15,
+            "marginBottom": 0,
+            "padding": 15,
+            "shadowColor": "rgba(0,0,0, .2)",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 1,
+            "shadowRadius": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#43484d",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "marginBottom": 15,
+                "textAlign": "center",
+              }
+            }
+            testID="cardTitle"
+          >
+            US, UK approvals not a priority for Russia COVID-19 vaccine Sputnik V - Business Insider - Business Insider
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              source={
+                Object {
+                  "uri": "https://i.insider.com/60197a02ee136f00183a9c53?width=1200&format=jpeg",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "height": 150,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": null,
+                }
+              }
+              testID="RNE__Image"
+              theme={
+                Object {
+                  "colors": Object {
+                    "black": "#242424",
+                    "disabled": "hsl(208, 8%, 90%)",
+                    "divider": "#bcbbc1",
+                    "error": "#ff190c",
+                    "grey0": "#393e42",
+                    "grey1": "#43484d",
+                    "grey2": "#5e6977",
+                    "grey3": "#86939e",
+                    "grey4": "#bdc6cf",
+                    "grey5": "#e1e8ee",
+                    "greyOutline": "#bbb",
+                    "platform": Object {
+                      "android": Object {
+                        "error": "#f44336",
+                        "grey": "rgba(0, 0, 0, 0.54)",
+                        "primary": "#2196f3",
+                        "secondary": "#9C27B0",
+                        "success": "#4caf50",
+                        "warning": "#ffeb3b",
+                      },
+                      "default": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "ios": Object {
+                        "error": "#ff3b30",
+                        "grey": "#7d7d7d",
+                        "primary": "#007aff",
+                        "searchBg": "#dcdce1",
+                        "secondary": "#5856d6",
+                        "success": "#4cd964",
+                        "warning": "#ffcc00",
+                      },
+                      "web": Object {
+                        "error": "#ff190c",
+                        "grey": "#393e42",
+                        "primary": "#2089dc",
+                        "searchBg": "#303337",
+                        "secondary": "#ca71eb",
+                        "success": "#52c41a",
+                        "warning": "#faad14",
+                      },
+                    },
+                    "primary": "#2089dc",
+                    "searchBg": "#303337",
+                    "secondary": "#ca71eb",
+                    "success": "#52c41a",
+                    "warning": "#faad14",
+                    "white": "#ffffff",
+                  },
+                }
+              }
+              transition={true}
+              transitionDuration={360}
+            />
+            <View
+              accessibilityElementsHidden={true}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#bdbdbd",
+                    "height": 150,
+                    "justifyContent": "center",
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__placeholder"
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "height": 150,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2089dc",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 3,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  View
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#bcbbc1",
+                "height": 0.5,
+                "marginBottom": 15,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 0,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;
