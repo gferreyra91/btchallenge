@@ -47,7 +47,11 @@ const Feed = ({navigation}) => {
         }>
         {/* for each category create the picker item component */}
         {Object.keys(CATEGORY).map((category) => (
-          <Picker.Item label={capitalize(category)} value={category} />
+          <Picker.Item
+            label={capitalize(category)}
+            value={category}
+            key={category}
+          />
         ))}
       </Picker>
       <NewsList
